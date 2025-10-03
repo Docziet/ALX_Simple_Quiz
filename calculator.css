@@ -1,0 +1,63 @@
+body {
+    font-family: poppins, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#calculator-container {
+    text-align: center;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+}
+
+input[type="number"] {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#operations {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    border-radius: 6px;
+    background-color: aliceblue;
+
+}
+
+#number1, #number2 {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#add, #subtract, #multiply, #divide {
+    background-color: rgb(45, 45, 45); /* Green */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    scrollbar-shadow-color: aqua;
+}
